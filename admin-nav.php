@@ -21,34 +21,15 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="usuarios.php">
 						<i class="zmdi zmdi-accounts-alt zmdi-hc-fw"></i> Gestionar Usuarios
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="proveedor.php">
 						<i class="zmdi zmdi-accounts-outline zmdi-hc-fw"></i> Gestionar Proveedor
 					</a>
 				</li>
-				<!-- <li>
-					<a href="#!" class="btn-sideBar-SubMenu">
-						<i class="zmdi zmdi-case zmdi-hc-fw"></i> Administracion <i class="zmdi zmdi-caret-down pull-right"></i>
-					</a>
-					<ul class="list-unstyled full-box">
-						<li>
-							<a href="period.html"><i class="zmdi zmdi-timer zmdi-hc-fw"></i> Period</a>
-						</li>
-						<li>
-							<a href="subject.html"><i class="zmdi zmdi-book zmdi-hc-fw"></i> Subject</a>
-						</li>
-						<li>
-							<a href="section.html"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i> Section</a>
-						</li>
-						<li>
-							<a href="salon.html"><i class="zmdi zmdi-font zmdi-hc-fw"></i> Salon</a>
-						</li>
-					</ul>
-				</li> -->
 				<li>
 					<a href="#!" id="cerrar_sesion">
 						<i class="zmdi zmdi-close zmdi-hc-fw"></i> Cerrar Sesion

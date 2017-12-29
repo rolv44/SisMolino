@@ -1,5 +1,5 @@
 <?php
-class Ccargo{
+class Mcargo{
   public $id;
   public $descripcion;
   

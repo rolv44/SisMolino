@@ -1,5 +1,5 @@
 <?php 
-class Cpersona{
+class Mpersona{
   public $documento;
   public $nombre;
   public $apellidos;
@@ -10,9 +10,6 @@ class Cpersona{
     
   }
   
-  function getDni(){
-    return $this->dni;
-  }
   function getNombre(){
     return $this->nombre;
   }
@@ -25,9 +22,6 @@ class Cpersona{
   function getTelefono(){
     return $this->telefono;
   }        
-  function setDni($param){
-    $this->dni=$param;
-  }
   function setNombre($param){
     $this->nombre=$param;
   }
@@ -41,6 +35,26 @@ class Cpersona{
     $this->telefono=$param;
   }
   
+
+    /**
+     * @return mixed
+     */
+    public function getDocumento()
+    {
+        return $this->documento;
+    }
+
+    /**
+     * @param mixed $documento
+     *
+     * @return self
+     */
+    public function setDocumento($documento)
+    {
+        $this->documento = $documento;
+
+        return $this;
+    }
 }
 
 ?>

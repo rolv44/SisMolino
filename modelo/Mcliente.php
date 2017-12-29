@@ -1,5 +1,5 @@
 <?php
-class Ccliente{
+class Mcliente{
   public $documento;
   public $zona;
   

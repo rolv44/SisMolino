@@ -1,5 +1,5 @@
 <?php 
-class Cusuario{
+class Musuario{
   public $id;
   public $usuario;
   public $contra;

@@ -1,5 +1,5 @@
 <?php
-class Cempleado{
+class Mempleado{
   public $documento;
   public $idCargo;
   public $documento1;
