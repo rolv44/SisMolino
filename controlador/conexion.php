@@ -15,5 +15,13 @@ class Cconexion
 			die("CONEXION NO ESTABLECIDA" . $this->conexion->connect_error);
 		}
 	}
+
+    /**
+     * @return mixed
+     */
+    public function getConexion()
+    {
+        return $this->conexion;
+    }
 }
 ?>

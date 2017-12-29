@@ -11,7 +11,7 @@ class Cusuario extends Cconexion
 		parent::__construct();
 	}
 
-	public function mostrarUsuarios($value='')
+	public function mostrarUsuarios()
 	{
 		$sql = "SELECT *FROM usuarios";
 		$resultado = $this->conexion->query($sql);
